@@ -1,0 +1,15 @@
+<table class="table table-striped">
+    <tr><th colspan="2" class="bg-info">Movie</th></tr>
+    <tr><th>Name</th><td>{{movie?.name || 'No Data'}}</td></tr>
+    <tr><th>Category</th><td>{{movie?.category || 'No Data'}}</td></tr>
+    <tr>
+    <th>Description</th>
+    <td>{{movie?.description || 'No Data'}}</td>
+    </tr>
+    <tr><th>Price</th><td>{{movie?.price || 'No Data'}}</td></tr>
+    <tr><th colspan="2" class="bg-info">Studio</th></tr>
+    <tr><th>Name</th><td>{{movie?.studio?.name}}</td></tr>
+    <tr><th>City</th><td>{{movie?.studio?.city}}</td></tr>
+    <tr><th>State</th><td>{{movie?.studio?.state}}</td></tr>
+    <tr><th>Movies</th><td>{{movie?.studio?.movies?.length}}</td></tr>
+</table>
