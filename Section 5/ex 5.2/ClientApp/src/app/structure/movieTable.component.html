@@ -1,0 +1,14 @@
+<table class="table table-striped">
+    <tr><th>Name</th><th>Category</th><th>Price</th><th></th></tr>
+    <tr *ngFor="let movie of movies">
+    <td>{{movie.name}}</td>
+    <td>{{movie.category}}</td>
+    <td>{{movie.price}}</td>
+    <td>
+        <button class="btn btn-primary btn-sm" 
+        [routerLink]="['/detail', movie.movieId]">
+            Details
+        </button>
+    </td>
+    </tr>
+</table>

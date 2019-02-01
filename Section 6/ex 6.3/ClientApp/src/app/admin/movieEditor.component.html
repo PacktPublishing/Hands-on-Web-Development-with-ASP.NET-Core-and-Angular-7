@@ -1,0 +1,26 @@
+<div class="form-group">
+    <label>Image URL (Exclude: HTTP://www.)</label>
+    <input class="form-control" [(ngModel)]="movie.image" />
+</div>
+<div class="form-group">
+    <label>Movie Name</label>
+    <input class="form-control" [(ngModel)]="movie.name" />
+</div>
+<div class="form-group">
+    <label>Category</label>
+    <input class="form-control" [(ngModel)]="movie.category" />
+</div>
+<div class="form-group">
+    <label>Studio</label>
+    <select class="form-control" [(ngModel)]="movie.studio" [compareWith]="compareStudios">
+        <option *ngFor="let s of studios" [ngValue]="s">{{s.name}}</option>
+    </select>
+</div>
+<div class="form-group">
+    <label>Description</label>
+    <textarea class="form-control" [(ngModel)]="movie.description"></textarea>
+</div>
+<div class="form-group">
+    <label>Price</label>
+    <input class="form-control" [(ngModel)]="movie.price" />
+</div>

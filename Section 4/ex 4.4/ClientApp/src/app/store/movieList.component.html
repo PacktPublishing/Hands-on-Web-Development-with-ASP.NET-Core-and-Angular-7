@@ -1,0 +1,22 @@
+<div *ngIf="movies?.length > 0; else nodata">
+    <div *ngFor="let movie of movies" class="card card-outline-primary m-1">
+        <div class="card-header">
+            <span class="h4">
+                <img src="https://{{movie.image}}" alt="[Image Missing]" width="70px" />{{movie.name}}
+
+            </span>
+            <span class="float-right badge badge-pill badge-primary">
+                {{movie.price | currency:"USD"}}
+            </span>
+        </div>
+        <div class="card-block">
+            <span class="card-text p-a-1">{{movie.description}}</span>
+            <button class="float-right btn btn-sm btn-success" (click)="addToCart(movie)">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+</div>
+<ng-template #nodata>
+    <h4 class="m-1">Waiting for data...</h4>
+</ng-template>

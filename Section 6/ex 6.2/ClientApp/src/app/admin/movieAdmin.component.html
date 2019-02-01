@@ -1,0 +1,59 @@
+<table *ngIf="tableMode; else create" class="table table-sm table-striped">
+    <tr>
+        <th>ID</th>
+        <th>Image Url</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Studio</th>
+        <th>Price</th>
+        <th></th>
+    </tr>
+    <tr *ngFor="let m of movies">
+        <ng-template [ngIf]="movie?.movieId != m.movieId" [ngIfElse]="edit">
+            <td>{{m.movieId}}</td>
+            <td>{{m.image}}</td>
+            <td>{{m.name}}</td>
+            <td>{{m.category}}</td>
+            <td>{{m.studio?.name || '(None)'}}</td>
+            <td>{{m.price | currency:USD:true}}</td>
+            <td>
+                <button class="btn btn-sm btn-primary" 
+                        (click)="selectMovie(m.movieId)">Edit</button>
+                <button class="btn btn-sm btn-danger" 
+                        (click)="deleteMovie(m.movieId)">Delete</button>
+            </td>
+        </ng-template>
+    </tr>
+    <tfoot>
+        <tr>
+            <td colspan="6" class="text-center">
+                <button class="btn btn-primary" 
+                        (click)="clearMovie(); tableMode = false">Create</button>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<ng-template #edit>
+    <td colspan="6">
+        <admin-movie-editor></admin-movie-editor>
+        <div class="text-center">
+            <button class="btn btn-sm btn-primary" (click)="saveMovie()">
+                Save
+            </button>
+            <button class="btn btn-sm btn-info" (click)="clearMovie()">
+                Cancel
+            </button>
+        </div>
+    </td>
+</ng-template>
+<ng-template #create>
+    <admin-movie-editor></admin-movie-editor>
+    <button class="btn btn-primary" (click)="saveMovie()">
+        Save
+    </button>
+    <button class="btn btn-info" (click)="clearMovie()">
+        Cancel
+    </button>
+</ng-template>
