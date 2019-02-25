@@ -1,46 +1,45 @@
-# Deep Learning with Apache Spark [Video]
-This is the code repository for [Deep Learning with Apache Spark [Video]](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-apache-spark-video?utm_source=github&utm_medium=repository&utm_campaign=9781787286689), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+# Hands-On Web Development with ASP.NET Core and Angular 7 [Video]
+This is the code repository for [Hands-On Web Development with ASP.NET Core and Angular 7 [Video]](https://www.packtpub.com/web-development/hands-web-development-aspnet-core-and-angular-7-video?utm_source=github&utm_medium=repository&utm_campaign=9781789807936), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
-Deep Learning is a subset of Machine Learning wherein datasets with several layers of complexity can be processed efficiently. This tutorial brings together two of the most popular buzzwords of today, Big Data and Artificial Intelligence, by showing you how you can implement Deep Learning solutions using the power of Apache Spark.
-
-The tutorial begins with explaining the fundamentals of Apache Spark and deep learning. You will see how to set up the Spark environment for performing deep learning, and learn different types of neural nets and principles of distributed modelling (model- and data-parallelism etc.). You will then implement deep learning models like CNN, RNN, LTSMs on Spark and get hands-on experience of what it takes and a general feeling of the complexity we are dealing with. You will also see how you can use libraries such as Deeplearning4j for performing deep learning on a distributed CPU and GPU setup.
-
-By the end of this course, you'll have gained experience with implementations of your models for applications such as object recognition, text analysis, voice recognition and even design human expert games.
-
+Have you ever wondered why so many applications do not become successful or popular? Are you looking to create a user-friendly cross-platform app with a powerful UI? This course will teach you to blend the power of Angular UI and .NET Core to create interactive, real-world applications that can easily communicate between the frontend and backend.
 
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>Get to know basic Apache Spark and deep learning concepts 
-<LI>Explore deep learning neural networks such as RBM, RNN, and DBN using some of the most popular industrial deep learning frameworks 
-<LI>Learn how to leverage big data to solve real-world problems using deep learning 
-<LI>Understand how to formulate real-world prediction problems as machine learning tasks, how to choose the right neural net architecture for a problem, and how to train neural nets using DL4J 
-<LI>Get up-and-running and gain an insight into the deep learning library DL4J and its practical uses 
-<LI>Design successful solutions with Extreme Learning machines 
-<LI>Train and test neural networks to fit your data model </LI></UL></DIV>
+<LI>How to develop and implement an online movie DVD store powered by Angular 
+<LI>Learn about the new features of ASP.NET Core 3 
+<LI>Learn about new Angular features such as modules, services, and routing 
+<LI>Entity framework &amp; how to model/implement a database for your app 
+<LI>How to set up a nice-looking interface for an online store using Angular 
+<LI>Create and implement a web service for an Angular app 
+<LI>Structure your Angular app through routing configuration 
+<LI>Design/build administration features in Angular apps </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-Prior working knowledge of the Scala and Spark
-	•	Familiarity with Git and GitHub for source control
+●	Prior working knowledge C# 
+●	Familiarity with Git and GitHub for source control
+●	Some understanding of basic HTML and JavaScript/TypeScript syntax
+●	(Optional) Experience with relational databases and table data structures
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-•	An InteliJ IDEA
-	•	JDK 1.8
-	•	Scala SDK 
+●	An editor like Atom, Sublime Text or Visual Studio Code (Preferred)
+●	Node.js – Latest Version Available
+●	Angular
+○	 npm install -g @angular/cli
 This course has been tested on the following system configuration:
-	•	OS: Mac OS X
-	•	Processor: i7
-	•	Memory: 16GB
-	•	Hard Disk Space: 200MB
+●	OS: Windows 10
+●	Processor: Dual Core 3.0 Ghz
+●	Memory: 4GB
+●	Hard Disk Space: 200MB
 
 
 ## Related Products
-* [Apache Spark: Tips, Tricks, & Techniques [Video]](https://www.packtpub.com/application-development/apache-spark-tips-tricks-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789801125)
+* [Learning Angular 7 [Video]](https://www.packtpub.com/web-development/learning-angular-7-video?utm_source=github&utm_medium=repository&utm_campaign=9781789804461)
 
-* [Hands-On Machine Learning with Scala and Spark [Video]](https://www.packtpub.com/big-data-and-business-intelligence/hands-machine-learning-scala-and-spark-video?utm_source=github&utm_medium=repository&utm_campaign=9781789342468)
+* [Design Patterns Using C# and .NET Core [Video]](https://www.packtpub.com/application-development/design-patterns-using-c-and-net-core-video?utm_source=github&utm_medium=repository&utm_campaign=9781788625258)
 
-* [Troubleshooting Apache Spark [Video]](https://www.packtpub.com/application-development/troubleshooting-apache-spark-video?utm_source=github&utm_medium=repository&utm_campaign=9781789805253)
+* [Getting Started with Angular [Video]](https://www.packtpub.com/application-development/getting-started-angular-video?utm_source=github&utm_medium=repository&utm_campaign=9781788628563)
 
