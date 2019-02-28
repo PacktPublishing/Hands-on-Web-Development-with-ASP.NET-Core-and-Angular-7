@@ -18,22 +18,22 @@ Have you ever wondered why so many applications do not become successful or popu
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-●	Prior working knowledge C# 
-●	Familiarity with Git and GitHub for source control
-●	Some understanding of basic HTML and JavaScript/TypeScript syntax
-●	(Optional) Experience with relational databases and table data structures
+●	Prior working knowledge C# <br/>
+●	Familiarity with Git and GitHub for source control<br/>
+●	Some understanding of basic HTML and JavaScript/TypeScript syntax<br/>
+●	(Optional) Experience with relational databases and table data structures<br/>
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-●	An editor like Atom, Sublime Text or Visual Studio Code (Preferred)
-●	Node.js – Latest Version Available
-●	Angular
+●	An editor like Atom, Sublime Text or Visual Studio Code (Preferred)<br/>
+●	Node.js – Latest Version Available<br/>
+●	Angular<br/>
 ○	 npm install -g @angular/cli
-This course has been tested on the following system configuration:
-●	OS: Windows 10
-●	Processor: Dual Core 3.0 Ghz
-●	Memory: 4GB
-●	Hard Disk Space: 200MB
+This course has been tested on the following system configuration:<br/>
+●	OS: Windows 10<br/>
+●	Processor: Dual Core 3.0 Ghz<br/>
+●	Memory: 4GB<br/>
+●	Hard Disk Space: 200MB<br/>
 
 
 ## Related Products
