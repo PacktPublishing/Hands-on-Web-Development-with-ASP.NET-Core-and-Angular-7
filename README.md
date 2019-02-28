@@ -28,7 +28,7 @@ This course has the following software requirements:<br/>
 ●	An editor like Atom, Sublime Text or Visual Studio Code (Preferred)<br/>
 ●	Node.js – Latest Version Available<br/>
 ●	Angular<br/>
-○	 npm install -g @angular/cli
+○	 npm install -g @angular/cli<br/>
 This course has been tested on the following system configuration:<br/>
 ●	OS: Windows 10<br/>
 ●	Processor: Dual Core 3.0 Ghz<br/>
